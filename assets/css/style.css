@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(246, 230, 219);
+}
+#first {
+    width: 30%;
+    margin: 80px auto;
+}
+#subtitle {
+    text-align: center;
+    font-size: 40px;
+}
+.resultado {
+    color: green;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+#name, #about, #msg {
+    font-size: 20px;
+}
+#nombre, #asunto, #mensaje {
+    font-size: 20px;
+}
+.errorNombre, .errorAsunto, .errorMensaje {
+    color: red;
+    font-style: italic;
+    font-size: 25px;
+}
+#botton {
+    background-color: greenyellow;
+    color: black;
+    font-size: 25px;
+    
+}
+
+
